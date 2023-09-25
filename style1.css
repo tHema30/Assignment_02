@@ -1,0 +1,97 @@
+/* * nav bar */ 
+
+.one{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box ;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+  
+}
+.all content{
+    background: #aeaeac;
+}
+
+/*nav bar start*/
+#navbar{
+    background-color:#b3b59f;
+    
+   
+}
+#navlogo{
+    border-radius: 5px;
+    width: 50px;
+    margin-left: 10px;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+     
+}
+.navbar-nav{
+    margin-left: 50px;
+}
+.nav-item .nav-link{
+    color: black;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+    background: #f7f5f2;
+    border-radius: 5px;
+    color: black;
+}
+#navbar form button{
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+
+
+
+ 
+    #footer{
+        width: 100%;
+        background: #aeaeac;
+        margin-top: 50px;
+     }   
+     
+    
+      .social-links i{
+        font-size: 17px;
+        margin-left: 10px;
+        margin-top: 30px;
+        padding: 10px;
+        background: black;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+     }           
+     
+     .credits{
+        color: white;
+        margin-top: 20px;
+        text-shadow: 0px 0px 1px black;
+     }
+     .creadits a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+     }
+     #credits a span{
+        color: black;
+     }
+     .copyright span{
+        color: black;
+     }
+    
+    html{
+        scroll-behavior: smooth;
+    }
+    .arrow{
+        position: fixed;
+        height: 50px;
+        bottom: 40px;
+        right: 50px;
+        text-align: center;
+        line-height: 50px;
+    }
+    
